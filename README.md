@@ -41,5 +41,15 @@ On .sml files you can execute *:make* to run your current buffer on SML, it also
 SML sintaxis. See `:help sml-coursera.txt` for detailed information
 
 
+Highlighting features
+---------------------
+
+There are some differences (features) from standard Vim 7.4 files.
+
+- Fix highlighting of `=>`, `:=`.
+
+- Highlight record fields in type declaration, record creation and record patterns.
+
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/chilicuil/vim-sml-coursera/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
